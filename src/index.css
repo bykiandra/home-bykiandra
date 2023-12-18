@@ -1,7 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;1,400&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+/* :root {
+  
+} */
+
+html {
+  font-family: 'Crimson Pro', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  @apply antialiased w-auto h-auto;
+}
+
+body {
+  @apply text-grey bg-off-white h-screen;
+}
+
+a {
+  text-underline-offset: -0.25rem;
+  text-decoration-skip-ink: none;
+
+  @apply underline decoration-mint-light decoration-8 transition duration-300;
+}
+
+a:hover {
+  @apply decoration-mint;
 }
