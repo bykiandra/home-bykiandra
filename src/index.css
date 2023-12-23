@@ -25,5 +25,22 @@ a {
 }
 
 a:hover {
-  @apply decoration-mint;
+  /* @apply decoration-mint; */
+  @apply no-underline text-mint;
+}
+
+a.site {
+  @apply no-underline transition duration-300;
+}
+
+a.site i {
+  @apply text-grey transition duration-300;
+}
+
+a.site:hover i {
+  @apply text-mint;
+}
+
+a.site span {
+  @apply block uppercase font-sans text-2xs tracking-wider;
 }

@@ -11,7 +11,11 @@ const App = () => {
           <a href='https://github.com/crownedfoxes' target='_blank'>writing code</a>, I enjoy playing video games, drawing,{' '}
           <a href='https://www.last.fm/user/crownedfoxes' target='_blank'>listening to music</a> and binge watching Netflix.
         </p>
-        <p className='flex gap-4'>
+        <p className='flex gap-12'>
+          <a href='https://code.bykiandra.com' className='site'><i>code</i><span>Developer Portfolio</span></a>
+          <a href='#' className='site'><i>thoughts</i><span>Blog</span></a>
+        </p>
+        <p className='flex gap-4 border-t border-mint-light mt-1 pt-4'>
           <a href='https://github.com/crownedfoxes' target='_blank'>Github</a>
           <a href='https://twitter.com/crownedfoxes' target='_blank'>Twitter</a>
         </p>

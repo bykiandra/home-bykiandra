@@ -11,7 +11,11 @@ export default {
       'mint': '#98D0BF',
       'mint-light': '#BBEEDF',
     },
-    extend: {},
+    extend: {
+      fontSize: {
+        '2xs': '0.6rem',
+      },
+    },
   },
   plugins: [],
 }
