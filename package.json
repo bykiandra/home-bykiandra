@@ -35,7 +35,6 @@
     "puppeteer": "^13"
   },
   "reactSnap": {
-    "inlineCss": true,
     "source": "dist"
   }
 }
