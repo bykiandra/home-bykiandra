@@ -19,7 +19,7 @@ const App = () => {
         <p>
           When I'm not{' '}
           <a
-            href='https://github.com/crownedfoxes'
+            href='https://github.com/bykiandra'
             target='_blank'
             data-tooltip-id='github'
             data-tooltip-content='My Github page'
@@ -46,7 +46,7 @@ const App = () => {
           </a>
         </p>
         <p className='flex gap-4 border-t border-mint-light mt-1 pt-4'>
-          <a href='https://github.com/crownedfoxes' target='_blank'>Github</a>
+          <a href='https://github.com/bykiandra' target='_blank'>Github</a>
           <a href='https://twitter.com/crownedfoxes' target='_blank'>Twitter</a>
         </p>
       </div>
