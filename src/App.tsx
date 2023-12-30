@@ -38,8 +38,12 @@ const App = () => {
           </a> and binge watching Netflix.
         </p>
         <p className='flex gap-12'>
-          <a href='https://code.bykiandra.com' className='site'><i>code</i><span>Developer Portfolio</span></a>
-          <a href='#' className='site'><i>thoughts</i><span>Blog &bull; Coming Soon</span></a>
+          <a href='https://code.bykiandra.com' target='_blank' className='site'>
+            <i>code</i><span>Developer Portfolio</span>
+          </a>
+          <a href='#' target='_blank' className='site'>
+            <i>thoughts</i><span>Blog &bull; Coming Soon</span>
+          </a>
         </p>
         <p className='flex gap-4 border-t border-mint-light mt-1 pt-4'>
           <a href='https://github.com/crownedfoxes' target='_blank'>Github</a>
