@@ -41,9 +41,6 @@ const App = () => {
           <a href='https://code.bykiandra.com' target='_blank' className='site'>
             <i>code</i><span>Developer Portfolio</span>
           </a>
-          <a href='#' target='_blank' className='site'>
-            <i>thoughts</i><span>Blog &bull; Coming Soon</span>
-          </a>
         </p>
         <p className='flex gap-4 border-t border-mint-light mt-1 pt-4'>
           <a href='https://github.com/bykiandra' target='_blank'>Github</a>
